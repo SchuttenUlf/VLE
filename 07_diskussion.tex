@@ -1,0 +1,92 @@
+\section{Diskussion der Ergebnisse}
+\label{sec:diskussion}
+
+\subsubsection*{a{)} Warum ist für sehr genaue Messungen eine Korrektur der am Hg-Präzisionsbarometer abgelesenen Druckwerte nötig? Um welche Art von Korrekturen handelt es sich?}
+Beim Ablesen am Barometer wird die Länge einer Quecksilbersäule betrachtet. Auf die Länge dieser Säule haben neben dem Luftdruck auch noch andere Faktoren Einfluss. Eine Korrektur des Luftdruckes ist notwendig um diese Faktoren zu kompensieren und damit eine Vergleichbarkeit der Werte zu erzeugen. Die Länge der Skala und das Volumen des Quecksilbers sind Temperaturabhängig. Temperaturschwankungen führen zu Kontraktion und Expansion. Die Korrektur erfolgt durch Umrechnung auf eine Temperatur von \SI{0}{\degreeCelsius}. Die Erdbeschleunigung "`zieht"' je nach Höhe über NN und Breitengrad unterschiedlich an der Quecksilbersäule. Korrekturstandard ist daher der 45. Breitengrad auf Meereshöhe (NN). Zuletzt muss auch der konvexe Quecksilbermenikus berücksichtigt werden welcher innerhalb des Glasrohres entsteht. Die Korrektur wurde in diesem Versuch durch das Computerprogramm BARO ausgeführt. 
+\cite{Barometerkorrektur}
+
+\subsubsection*{b{)} Erläutern Sie inwiefern Verunreinigungen in der flüssigen Phase zu einer Fehlbestimmung der temperaturabhängigen Dampfdruckwerte führen können.}
+Ist die Probe durch leichtsiedende Stoffe verunreinigt, so wird ein höherer Dampfdruck gemessen. Die verunreinigende Komponente verfälscht mit ihrem höheren Dampfdruck die Messung. Ein alltägliches Beispiel für ein ähnliches System wäre Ethanol in Wasser. Eine zweite Möglichkeit wäre die Kontamination mit einem Salz. Diese hat eine Siedepunktserhöhung zur Folge.\cite{Verunreinigungen}
+
+\subsubsection*{c{)} Stellen Sie Formel und Bedeutung der Clausius-Clapeyron-Gleichung dar und zeigen Sie durch Integration wie daraus die August'sche Dampfdruckgleichung erhalten werden kann.}
+
+Die Clausius-Clapeyron-Gleichung \eqref{gl:CCG} ist ein Sonderfall der Clapeyron-Gleichung und beschreibt den allgemeinen Zusammenhang zwischen Dampfdruck und Temperatur. Sie erlaubt es den Verlauf der Phasengrenze zwischen flüssiger und gasförmiger Phase zu berechnen.
+
+Die Umformung in die August'sche Dampfdruckgleichung hat zwei Annahmen als Voraussetzung. Zum Ersten wird ideales Gasverhalten angenommen. 
+
+\begin{flalign}\label{gl:CCG}
+	\frac{dp}{dT}&=\frac{\Delta H_{m,v}}{\Delta V_{m,v}*T}
+\end{flalign}
+Zum Zweiten wird das molare Volumen der Flüssigkeit gegenüber dem molaren Volumen des Dampfes vernachlässigt \eqref{vernachlassigt}, wodurch für die Änderung des molaren Volumens das molare Volumen des Dampfes eingesetzt werden kann.\eqref{eingesetzt}
+\begin{flalign}\label{vernachlassigt}
+	\Delta V_{m,v}= \left( V_{m,v}^{Dampf} -  \underbrace{V_{m,v}^{Liquid}}_{\rightarrow\,0}\right)= V_{m,v}^{Dampf}
+\end{flalign} 
+
+\begin{flalign}\label{eingesetzt}
+	\frac{dp}{dT}&=\frac{\Delta H_{m,v}}{\Delta V_{m,v}^{Dampf}*T}
+\end{flalign}
+
+Aufgrund der Annahme des idealen Gasverhaltens, kann nun die ideale Gasgleichung nach dem Volumen umgestellt \eqref{idealesGG} und für das molare Volumen des Dampfes eingesetzt werden.\eqref{allesdrin}
+
+\begin{flalign}\label{idealesGG}
+	p*V&=n*R*T\\
+	V_{m,v}^{Dampf}=\frac{V}{n}&=\frac{R*T}{p}
+\end{flalign}
+\begin{flalign}\label{allesdrin}
+\frac{dp}{dT}&=\frac{\Delta H_{m,v}*p}{T^2*R}\\ 
+\frac{dp}{p}&=\frac{\Delta H_{m,v}}{T^2*R}*dT
+\end{flalign}
+Es folgt die Integration \eqref{int} des Ausdruckes zur August'schen Dampfgleichung \eqref{august}.
+\begin{flalign}\label{int}
+	\int\frac{dp}{p}&=\int\frac{\Delta H_{m,v}}{T^2*R}*dT
+\end{flalign}
+\begin{flalign}\label{august}
+	\ln\left( \frac{p_2}{p_1}\right)&=\frac{\Delta H_{m,v}}{R}* \left(\frac{1}{T2}-\frac{1}{T1}\right)
+\end{flalign}
+\subsubsection*{d{)} Wie können Sie graphisch prüfen, dass der Dampfdruck einer reinen Flüssigkeit unter Annahme idealen Verhaltens für die Gas- Flüssigkeitsphase eine exponentielle Temperaturabhängigkeit besitzt?}
+
+Die exponentielle Temperaturabhängigkeit kann gepfüft werden, in dem eine Exponentialfunktion für die gefundenen Messpunkte angenähert wird. Für den Dampfdruck kann dies über die \textit{ANTOINE}-Gleichung geschehen. Für den Dampfdruck des reinen Isopropanols, unter Annahme idealen Verhaltens, ist der exponentielle Zusammenhang aus der Form der entsprechend umgestellten \textit{ANTOINE}-Gleichung \ref{sec:berechnungDampfdruckkurveausKonstanten} ersichtlich. Den endgültigen Beweis erbringt ein Blick in die Abb.\ref{dia:p/Tmess}, wo bereits erwähnte Exponentialgleichung eingetragen ist. Die Druckmesspunkte liegen praktisch auf der Exponentialfunktion und belegen so die exponentielle Temperaturabhängigkeit. 
+
+
+\subsubsection*{e{)} Wofür steht am Präzisionsthermometer der Begriff Pt-100? Erläutern sie kurz das dahinterstehende Messprinzip der Temperaturbestimmung}
+
+Die Bezeichnung Pt-100 steht für einen Platinwiderstand mit \SI{100}{\ohm}. Der elektrische Widerstand eines Leiters ändert sich mit der Temperatur. Metalle, wie auch Platin eines ist, verringern ihre Leitfähigkeit mit Steigender Temperatur, wodurch sich ihr Widerstand erhöht. Durch Messung dieses Ohm'schen Widerstandes kann anhand einer Kalibrierung auf die Temperatur des Metalls geschlossen werden.\cite{Widerstandsthermometer}
+
+\subsubsection*{f{)} Stellen Sie die bestimmten Dampfdruckwerte als Funktion der Temperatur in einem Diagramm dar.}
+
+Die Darstellung ist als Abb.\ref{dia:p/Tmess} im Kapitel \ref{sec:ergebnisse} zu finden.
+
+\subsubsection*{g{)} Erstellen Sie auf Basis ihrer Daten ein zweites Diagramm, in dem der natürliche Logarithmus des Dampfdrucks gegen die inverse Temperaturaufgetragen wird. Diskutieren Sie das Ergebnis im Hinblick auf die August'sche Dampfgleichung und beurteilen Sie die Linearität mit einer geeigneten Kenngröße. Ermitteln Sie darüber hinaus aus dem Geradenanstieg die molare Verdampfungsenthalpie $\Delta_{LV}H_m$ des untersuchten Stoffes. Vergleichen Sie mit dem entsprechenden Literaturwert und diskutieren Sie mögliche Ursachen für ggf. vorhandene Abweichungen.}
+
+Die geforderte Darstellung ist im Kapitel \ref{sec:ergebnisse} als Abb. \ref{dia:lnp/1/T} zu finden. Als Kenngröße für die Linearität wurde das Bestimmtheitsmaß der Regressionsgerade durch die Punkte aus den Wertepaaren gewählt. Dieses Bestimmtheitsmaß wird vom Tabellenkalkulationsprogramm \textsc{Libre-Office Calc} mit einem Betrag von rund 0.99985 angegeben. Dieser Wert ist sehr nah an der 1, was bedeutet, dass die gefundene Regressionsgerade sehr nah an den Punkten aus den Wertepaaren liegt. Die Linearität ist als sehr hoch einzustufen. 
+
+Die Berechnung der molaren Verdampfungsenthalpie ist im Kapitel \ref{sec:berechnungMolareVerdEnthalpie} zu finden. Aus dem Geradenanstieg ergab sich dabei eine molare Verdampfungsenthalpie des Isopropanols von rund \SI{43,5}{\kilo\joule\per\mole}. In der Literatur \cite{molareVerdampfungsenthalpieLiteraturwert} findet sich im Vergleich dazu eine molare Verdampfungsenthalpie von \SI{39,85 }{\kilo\joule\per\mole}. Der im Experiment ermittelte Wert liegt ein Wenig über dem Literaturwert. Gründe dafür sind in den Annahmen zur Berechnung zu suchen. Es wurde ein reales System untersucht. Ein solches kann sich nie vollkommen ideal verhalten. Das molare Volumen der Flüssigkeit mag zwar klein sein, aber trotzdem existiert es. Bei einer jeden Messung können systematische und zufällige Fehler Einfluss auf das Ergebnis nehmen. Näheres zu den Fehlern ist im Kapitel \ref{sec:fehler} aufgeführt.
+\subsubsection*{h{)} Mit Hilfe eines Datenauswerte-Programms, wie Excel oder ZUST, ist für die gemessenen Wertepaare p$^\circ$-T eine Regressionsrechnung durchzuführen. Dabei sind die Konstanten A, B und C der \textit{ANTOINE}-Gleichung zu bestimmen und mit Literaturwerten zu Vergleichen.}
+
+Die durch das Programm \textsc{ZUST} aus den experimentellen Daten ermittelten \textit{ANTOINE}\--Konstanten sind in der Spalte "`Experimentell"' der Tab.\ref{tab:AntoineKonstanten} eingetragen. Die ebenfalls aus dem Programm ZUST entnommenen Literaturwerte sind nebenstehend in der Spalte "`Literatur"' dargestellt. Die Literaturwerte sind deutlich höher als die im Experiment ermittelten Konstanten. Diese Abweichung kann auf den unterschiedlichen Geltungsbereich zurückzuführen sein. Die Literaturwerte gelten für einen um \SI{60}{\kelvin} weiteren Temperaturbereich als die experimentell bestimmten Werte. Das ist weit mehr als das Doppelte und relativiert eine maximale Abweichung von ca. 30\%.
+
+\begin{table}[h!]
+	\centering
+	\caption{Gegenüberstellung der experimentell ermittelten \textit{ANTOINE}-Konstanten mit Literaturwerten, sowie die zugehörigen Geltungsbereiche}
+	\label{tab:AntoineKonstanten}
+	%\resizebox{12.6cm}{!}{
+	\begin{tabular}{|c|c|c|}
+		\hline
+			\textbf{Konstante} & \textbf{Experimentell} & \textbf{Literatur} \\ 
+			\hline
+			A & 6,933 & 8,003 \\ 
+			B & 1396,28 & 2010,33 \\ 
+			C & 201,633 & 252,635\\
+		\hline
+		\hline
+		T$_\text{Lo}$ [\si{\degreeCelsius}]&33,7&-25\\
+	T$_\text{Hi}$ [\si{\degreeCelsius}]	&81,4&83\\
+	\hline
+	\end{tabular}
+	%	}
+\end{table}
+\FloatBarrier
+\vspace*{-2.5mm}
+%Tabelle Ende
+\subsubsection*{i{)} Nutzen Sie ihre ermittelten \textit{ANTOINE}-Parameter, um die p$^\circ$-T-Dampfdruckkurve mit der \textit{ANTOINE}-Gleichung zu berechnen und vergleichen Sie ihre experimentellen Werte mit den berechneten Werten im Diagramm.}
+Die Dampfdruckkurve aus den berechneten \textit{ANTOINE}-Parametern ist in der Abb. \ref{dia:p/Tmess} eingetragen. Die \textit{ANTOINE}-Gelichung mit eingesetzten Parametern ist im Kapitel \ref{sec:berechnungDampfdruckkurveausKonstanten} als Gl. (\ref{gl:antoineEingesetzt}) dargestellt. Die experimentellen Werte liegen alle sehr nah an dem berechneten Graphen. Die gefundenen \textit{ANTOINE}-Parameter beschreiben den im Experiment beobachteten Zusammenhang exakt.
