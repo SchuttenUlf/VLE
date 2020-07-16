@@ -7,9 +7,9 @@
 \contentsline {subsection}{\numberline {2.4}Raoult-Dalton'sches-Gesetz}{3}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Thermodynamische Konsistenz}{3}{subsection.2.5}
 \contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{3}{section.3}
-\contentsline {section}{\numberline {4}Ergebnisse}{4}{section.4}
-\contentsline {section}{\numberline {5}Fehlerbetrachtung}{6}{section.5}
-\contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{7}{section.6}
-\contentsline {section}{\numberline {7}Zusammenfassung und Fazit}{7}{section.7}
-\contentsline {section}{Literaturverzeichnis}{9}{section.7}
-\contentsline {section}{Anhang}{9}{section*.15}
+\contentsline {section}{\numberline {4}Ergebnisse}{5}{section.4}
+\contentsline {section}{\numberline {5}Fehlerbetrachtung}{9}{section.5}
+\contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{9}{section.6}
+\contentsline {section}{\numberline {7}Zusammenfassung und Fazit}{9}{section.7}
+\contentsline {section}{Literaturverzeichnis}{10}{section.7}
+\contentsline {section}{Anhang}{10}{section*.15}
