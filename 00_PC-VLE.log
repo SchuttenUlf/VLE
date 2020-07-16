@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  2 JUL 2020 11:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  16 JUL 2020 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1781,7 +1781,7 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language81
 LaTeX Info: Redefining \_ on input line 43.
 )
-No file 00_PC-VLE.aux.
+(./00_PC-VLE.aux (./01_titel.aux) (./08_literatur.aux) (./09_anhang.aux))
 \openout1 = `00_PC-VLE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
@@ -1799,6 +1799,7 @@ LaTeX Font Info:    ... okay on input line 150.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 150.
 LaTeX Font Info:    ... okay on input line 150.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 150.
+
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -2072,338 +2073,82 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 177.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+) (./00_PC-VLE.toc)
 \tf@toc=\write5
 \openout5 = `00_PC-VLE.toc'.
 
  [1
 
-] (./03_aufgabenstellung.tex
-Underfull \hbox (badness 1762) in paragraph at lines 7--8
-\T1/lmr/m/n/12 In die-sem Ver-such wur-den Un-ter-su-chun-gen zum Sie-de-ver-ha
-l-ten von rei-nem
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 9--11
-\T1/lmr/m/n/12 den Um-ge-bungs-druck über-schrei-tet. Wäh-rend des Sie-dens ei-
-ner Flüs-sig-keit
- []
-
-
-LaTeX Warning: Reference `gl:clapeyron' on page 2 undefined on input line 13.
-
-
-LaTeX Warning: Reference `gl:CCG' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Reference `august' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Reference `gl:anton' on page 2 undefined on input line 17.
-
-
-Underfull \hbox (badness 3250) in paragraph at lines 17--18
-[]\T1/lmr/m/n/12 Als Mo-dell zur Be-schrei-bung des Sät-ti-gungs-dampf-druckes 
-in Ab-hän-gig-keit
- []
-
-
-Underfull \hbox (badness 3199) in paragraph at lines 17--18
-\T1/lmr/m/n/12 wird die Antoine-Gleichung [] ge-nutzt. Die-se ba-siert eben-fal
-ls auf der
+]
+(./03_aufgabenstellung.tex
+Underfull \hbox (badness 1210) in paragraph at lines 8--9
+\T1/lmr/m/n/12 Ein Azeo-trop ist ein Ge-misch aus min-des-tens zwei Kom-po-nen-
+ten in ei-nem
  []
 
 ) (./05_durchfuerung.tex
+<img/zirkulationsapparatur.png, id=17, 725.71124pt x 967.615pt>
+File: img/zirkulationsapparatur.png Graphic file (type png)
 
-! LaTeX Error: File `img/versuchsaufbau-ebull' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...h=0.7\linewidth]{img/versuchsaufbau-ebull}
-                                                  
-I could not locate the file with any of these extensions:
-.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<use img/zirkulationsapparatur.png>
+Package pdftex.def Info: img/zirkulationsapparatur.png used on input line 8.
+(pdftex.def)             Requested size: 298.75264pt x 398.34883pt.
 )
+Underfull \hbox (badness 1389) in paragraph at lines 4--192
+\T1/lmr/m/n/12 Die in Abb. 1 dar-ge-stell-te Zir-ku-la-ti-ons-ap-pa-ra-tur wur-
+de im ers-ten Teil des
+ []
 
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 192.
+[2] [3] (./06_ergebnisse.tex [4 <./img/zirkulationsapparatur.png>]
+PGFPlots: reading {kalibrierpunkte.dat}
+Missing character: There is no ; in font nullfont!
 
-[2] (./06_ergebnisse.tex
+Underfull \hbox (badness 1168) in paragraph at lines 53--54
+[]\T1/lmr/m/n/12 Die Be-rech-nung der Dampf-drücke der Kom-po-nen-ten bei der e
+nt-spre-chen-den
+ []
 
-LaTeX Warning: Reference `tab:messwerttabelle' on page 3 undefined on input lin
-e 3.
+[5] <img/VLE-T-x-isobar.png, id=42, 1185.42876pt x 830.10126pt>
+File: img/VLE-T-x-isobar.png Graphic file (type png)
 
+<use img/VLE-T-x-isobar.png>
+Package pdftex.def Info: img/VLE-T-x-isobar.png used on input line 85.
+(pdftex.def)             Requested size: 469.47308pt x 328.75404pt.
 
-LaTeX Warning: Citation `lideCRCHandbookChemistry1994' on page 3 undefined on i
-nput line 3.
-
-
-LaTeX Warning: Reference `dia:p/Tmess' on page 3 undefined on input line 3.
-
-
-LaTeX Warning: Citation `lideCRCHandbookChemistry1994' on page 3 undefined on i
-nput line 14.
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 3--31
-[][] \T1/lmr/m/n/12 und [][] sind in Tab. [] auf-ge-führt. Die in der rech-ten 
-Spal-te
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 85--86
+ [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<img/gleichgewichtsdiagramm.png, id=43, 1219.55624pt x 770.88pt>
+File: img/gleichgewichtsdiagramm.png Graphic file (type png)
 
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 31.
+<use img/gleichgewichtsdiagramm.png>
+Package pdftex.def Info: img/gleichgewichtsdiagramm.png used on input line 92.
+(pdftex.def)             Requested size: 469.47308pt x 296.74855pt.
 
-[3]
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 92--93
+ [][] 
+ []
 
-LaTeX Warning: Reference `dia:p/Tmess' on page 4 undefined on input line 35.
-
-
-LaTeX Warning: Reference `tab:messwerttabelle' on page 4 undefined on input lin
-e 35.
-
-Missing character: There is no ; in font nullfont!
-
-LaTeX Warning: Reference `dia:lnp/1/T' on page 4 undefined on input line 73.
-
-
-LaTeX Warning: Reference `gl:Regressionsgeradengleichung' on page 4 undefined o
-n input line 73.
-
-
-! Package pgfplots Error: Could not read table file 'ln(p)ueber1durchT.dat' in 
-'search path=.'. In case you intended to provide inline data: maybe TeX screwed
- up your end-of-lines? Try `row sep=crcr' and terminate your lines with `\\' (r
-efer to the pgfplotstable manual for details).
-
-See the pgfplots package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 			\addplot table {ln(p)ueber1durchT.dat};
-                                               
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
-
-PGFPlots: reading {ln(p)ueber1durchT.dat}
-
-Package pgfplots Warning: the current plot has no coordinates (or all have been
- filtered away) on input line 96.
-
- [warning /pgfplots/warning/plot without coordinates]
-Missing character: There is no ; in font nullfont!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+) (./011_fehlerbetrachtung.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 107.
-
-[4]
-Underfull \hbox (badness 1584) in paragraph at lines 111--112
-\T1/lmr/m/n/12 Die Be-rech-nungs der mo-la-ren Ver-damp-fungs-ent-hal-pie $\OT1
-/lmr/m/n/12 ^^A[]\OML/lmm/m/it/12 H[]$ \T1/lmr/m/n/12 baut auf der
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 111--112
-\T1/lmr/m/n/12 Clausius-Clapeyron-Gleichung auf. Es müss-ten fol-gen-de An-nah-
-men ge-trof-fen
+Underfull \hbox (badness 2856) in paragraph at lines 9--10
+[]\T1/lmr/m/n/12 Ebenso wie die Tem-pe-ra-tur wirkt sich auch die War-te-zeit z
+wi-schen den
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 113.
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 113.
-
-
-LaTeX Warning: Reference `gl:verdampfungsenthalpie' on page 5 undefined on inpu
-t line 116.
-
-
-LaTeX Warning: Citation `molareVerdampfungsenthalpie' on page 5 undefined on in
-put line 116.
-
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 124.
-
-
-LaTeX Warning: Reference `tab:AntoineKonstanten' on page 5 undefined on input l
-ine 126.
-
-
-LaTeX Warning: Reference `gl:antoineEingesetzt' on page 5 undefined on input li
-ne 126.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 131.
-
-[5]
-
-LaTeX Warning: Reference `dia:p/Tmess' on page 6 undefined on input line 132.
-
-) (./011_fehlerbetrachtung.tex) (./07_diskussion.tex
-
-LaTeX Warning: Citation `Barometerkorrektur' on page 6 undefined on input line 
-6.
-
-
-Underfull \hbox (badness 1024) in paragraph at lines 5--7
-\T1/lmr/m/n/12 Auf die Län-ge die-ser Säu-le ha-ben ne-ben dem Luft-druck auch 
-noch an-de-re
- []
-
-
-Underfull \hbox (badness 4036) in paragraph at lines 5--7
-\T1/lmr/m/n/12 ^^Rzieht^^P je nach Hö-he über NN und Brei-ten-grad un-ter-schie
-d-lich an der
- []
-
-
-LaTeX Warning: Citation `Verunreinigungen' on page 6 undefined on input line 9.
-
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 9--10
-\T1/lmr/m/n/12 Ist die Pro-be durch leicht-sie-den-de Stof-fe ver-un-rei-nigt, 
-so wird ein hö-he-rer
- []
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 10.
-
-[6]
-
-LaTeX Warning: Reference `gl:CCG' on page 7 undefined on input line 13.
-
-
-Underfull \hbox (badness 2662) in paragraph at lines 13--14
-\T1/lmr/m/n/12 und be-schreibt den all-ge-mei-nen Zu-sam-men-hang zwi-schen Dam
-pf-druck und
- []
-
-
-LaTeX Warning: Reference `vernachlassigt' on page 7 undefined on input line 20.
-
-
-
-LaTeX Warning: Reference `eingesetzt' on page 7 undefined on input line 20.
-
-
-LaTeX Warning: Reference `idealesGG' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Reference `allesdrin' on page 7 undefined on input line 29.
-
-
-LaTeX Warning: Reference `int' on page 7 undefined on input line 39.
-
-
-LaTeX Warning: Reference `august' on page 7 undefined on input line 39.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 42.
-
-[7]
-
-LaTeX Warning: Reference `sec:berechnungDampfdruckkurveausKonstanten' on page 8
- undefined on input line 48.
-
-
-LaTeX Warning: Reference `dia:p/Tmess' on page 8 undefined on input line 48.
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 48--49
-\T1/lmr/m/n/12 Dampf-druck kann dies über die \T1/lmr/m/it/12 AN-TO-I-NE\T1/lmr
-/m/n/12 -Gleichung ge-sche-hen. Für den
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 48--49
-\T1/lmr/m/n/12 Dampf-druck des rei-nen Iso-pro-pa-nols, un-ter An-nah-me idea-l
-en Ver-hal-tens, ist
- []
-
-
-LaTeX Warning: Citation `Widerstandsthermometer' on page 8 undefined on input l
-ine 53.
-
-
-LaTeX Warning: Reference `dia:p/Tmess' on page 8 undefined on input line 57.
-
-
-LaTeX Warning: Reference `sec:ergebnisse' on page 8 undefined on input line 57.
-
-
-
-LaTeX Warning: Reference `sec:ergebnisse' on page 8 undefined on input line 61.
-
-
-
-LaTeX Warning: Reference `dia:lnp/1/T' on page 8 undefined on input line 61.
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 62.
-
-[8]
-
-LaTeX Warning: Reference `sec:berechnungMolareVerdEnthalpie' on page 9 undefine
-d on input line 63.
-
-
-LaTeX Warning: Citation `molareVerdampfungsenthalpieLiteraturwert' on page 9 un
-defined on input line 63.
-
-
-LaTeX Warning: Reference `sec:fehler' on page 9 undefined on input line 63.
-
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 64.
-
-LaTeX Warning: Reference `tab:AntoineKonstanten' on page 9 undefined on input l
-ine 66.
-
-
-Underfull \hbox (badness 2057) in paragraph at lines 66--67
-\T1/lmr/m/n/12 Die eben-falls aus dem Pro-gramm ZUST ent-nom-me-nen Li-te-ra-tu
-r-wer-te sind
- []
-
-
-LaTeX Warning: Reference `dia:p/Tmess' on page 9 undefined on input line 92.
-
-
-LaTeX Warning: Reference `sec:berechnungDampfdruckkurveausKonstanten' on page 9
- undefined on input line 92.
-
-
-LaTeX Warning: Reference `gl:antoineEingesetzt' on page 9 undefined on input li
-ne 92.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 198.
-
-[9] (./10_zusammenfassung.tex
-
-LaTeX Warning: Reference `dia:p/Tmess' on page 10 undefined on input line 4.
-
-)
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 201.
-
-[10]
+[6]) (./07_diskussion.tex) (./10_zusammenfassung.tex) [7 <./img/VLE-T-x-isobar.
+png>] [8 <./img/gleichgewichtsdiagramm.png (PNG copy)>]
 \openout2 = `08_literatur.aux'.
 
  (./08_literatur.tex
@@ -2421,7 +2166,10 @@ Type  H <return>  for immediate help.
                                                   
 l.5 \includepdf{deckblatt}
                           
-(That was another \errmessage.)
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
 
 ! Undefined control sequence.
 \AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
@@ -2485,10 +2233,7 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 5.
-
-[11
+[9
 
 
 
@@ -2532,11 +2277,7 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[12])
-
-Package lastpage Warning: Rerun to get the references right on input line 207.
-
-
+[10]) 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
@@ -2545,40 +2286,35 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 207.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 44221 strings out of 493029
- 1001955 string characters out of 6136234
- 1209474 words of memory out of 5000000
- 47003 multiletter control sequences out of 15000+600000
- 100749 words of font info for 74 fonts, out of 8000000 for 9000
+ 44109 strings out of 493029
+ 1000279 string characters out of 6136234
+ 1195152 words of memory out of 5000000
+ 46904 multiletter control sequences out of 15000+600000
+ 74305 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,21n,103p,10372b,2601s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,19n,103p,10372b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
--mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbsy10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmc
-sc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/f
-onts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt
-12.pfb>
-Output written on 00_PC-VLE.pdf (13 pages, 497587 bytes).
+-mathex.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lme
+x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+tt12.pfb>
+Output written on 00_PC-VLE.pdf (11 pages, 695609 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 79 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

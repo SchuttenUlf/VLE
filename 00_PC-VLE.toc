@@ -1,11 +1,15 @@
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Einleitung und Versuchsziel}{2}{section.1}
-\contentsline {section}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{3}{section.2}
-\contentsline {section}{\numberline {3}Ergebnisse}{3}{section.3}
-\contentsline {subsection}{\numberline {3.1}Berechnung der molaren Verdampfungsenthalpie}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Berechnung der Dampfdruckkurve aus den ermittelten \textit {ANTOINE}-Konstanten}{5}{subsection.3.2}
-\contentsline {section}{\numberline {4}Fehlerbetrachtung}{6}{section.4}
-\contentsline {section}{\numberline {5}Diskussion der Ergebnisse}{6}{section.5}
-\contentsline {section}{\numberline {6}Zusammenfassung und Fazit}{10}{section.6}
-\contentsline {section}{Literaturverzeichnis}{11}{section.6}
-\contentsline {section}{Anhang}{11}{section*.16}
+\contentsline {section}{\numberline {2}Theoretische Grundlagen}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Der Azeotrope Punkt}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Refraktometrie}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Die Gibbs'sche Phasenregel}{3}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Raoult-Dalton'sches-Gesetz}{3}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Thermodynamische Konsistenz}{3}{subsection.2.5}
+\contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{3}{section.3}
+\contentsline {section}{\numberline {4}Ergebnisse}{4}{section.4}
+\contentsline {section}{\numberline {5}Fehlerbetrachtung}{6}{section.5}
+\contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{7}{section.6}
+\contentsline {section}{\numberline {7}Zusammenfassung und Fazit}{7}{section.7}
+\contentsline {section}{Literaturverzeichnis}{9}{section.7}
+\contentsline {section}{Anhang}{9}{section*.14}
