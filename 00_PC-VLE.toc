@@ -12,4 +12,4 @@
 \contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{7}{section.6}
 \contentsline {section}{\numberline {7}Zusammenfassung und Fazit}{7}{section.7}
 \contentsline {section}{Literaturverzeichnis}{9}{section.7}
-\contentsline {section}{Anhang}{9}{section*.14}
+\contentsline {section}{Anhang}{9}{section*.15}
