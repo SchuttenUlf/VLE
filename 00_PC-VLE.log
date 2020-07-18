@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  16 JUL 2020 20:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  17 JUL 2020 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2086,20 +2086,67 @@ Underfull \hbox (badness 1210) in paragraph at lines 8--9
 ten in ei-nem
  []
 
-) (./05_durchfuerung.tex
-<img/zirkulationsapparatur.png, id=17, 725.71124pt x 967.615pt>
-File: img/zirkulationsapparatur.png Graphic file (type png)
+<img/refraktometer.png, id=17, 255.95625pt x 369.38pt>
+File: img/refraktometer.png Graphic file (type png)
 
-<use img/zirkulationsapparatur.png>
-Package pdftex.def Info: img/zirkulationsapparatur.png used on input line 8.
-(pdftex.def)             Requested size: 298.75264pt x 398.34883pt.
-)
-Underfull \hbox (badness 1389) in paragraph at lines 4--192
-\T1/lmr/m/n/12 Die in Abb. 1 dar-ge-stell-te Zir-ku-la-ti-ons-ap-pa-ra-tur wur-
+<use img/refraktometer.png>
+Package pdftex.def Info: img/refraktometer.png used on input line 16.
+(pdftex.def)             Requested size: 298.75264pt x 431.16959pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 23--24
+\T1/lmr/m/n/12 der Wel-len-län-ge [][]. Die-se ent-spricht ei-ner spe-zi-fi-sch
+en Wel-len-län-ge im
+ []
+
+[2] [3 <./img/refraktometer.png>]
+Underfull \hbox (badness 4403) in paragraph at lines 43--44
+\T1/lmr/m/n/12 Ge-setz zu-sam-men-ge-setzt. Es be-schreibt den Zu-sam-men-hang 
+zwi-schen der
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 48--49
+\T1/lmr/m/n/12 der Tem-pe-ra-tur, wird die Antoine-Gleichung [] ge-nutzt. Die-s
+e ba-siert auf
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 48--49
+\T1/lmr/m/n/12 der Clapeyron-Gleichung []. Sie ist aber bes-ser zur Be-schrei-b
+ung rea-ler
+ []
+
+) (./05_durchfuerung.tex
+Underfull \hbox (badness 1028) in paragraph at lines 5--7
+\T1/lmr/m/n/12 Der Ver-such muss zwin-gend in ei-nem Ab-zug durch-ge-führt wer-
+den, weil die
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 5--7
+\T1/lmr/m/n/12 Die in Abb. 2 dar-ge-stell-te Zir-ku-la-ti-ons-ap-pa-ra-tur wur-
 de im ers-ten Teil des
  []
 
-[2] [3] (./06_ergebnisse.tex [4 <./img/zirkulationsapparatur.png>]
+[4]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 11.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 11.
+ [5]
+<img/zirkulationsapparatur.png, id=38, 725.71124pt x 967.615pt>
+File: img/zirkulationsapparatur.png Graphic file (type png)
+
+<use img/zirkulationsapparatur.png>
+Package pdftex.def Info: img/zirkulationsapparatur.png used on input line 29.
+(pdftex.def)             Requested size: 298.75264pt x 398.34883pt.
+) (./06_ergebnisse.tex [6 <./img/zirkulationsapparatur.png>]
 PGFPlots: reading {kalibrierpunkte.dat}
 Missing character: There is no ; in font nullfont!
 
@@ -2108,7 +2155,7 @@ Underfull \hbox (badness 1168) in paragraph at lines 54--55
 nt-spre-chen-den
  []
 
-[5] <img/VLE-T-x-isobar.png, id=39, 1185.42876pt x 830.10126pt>
+[7] <img/VLE-T-x-isobar.png, id=50, 1185.42876pt x 830.10126pt>
 File: img/VLE-T-x-isobar.png Graphic file (type png)
 
 <use img/VLE-T-x-isobar.png>
@@ -2119,7 +2166,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 86--87
  [][] 
  []
 
-<img/gleichgewichtsdiagramm.png, id=40, 1219.55624pt x 770.88pt>
+<img/gleichgewichtsdiagramm.png, id=51, 1219.55624pt x 770.88pt>
 File: img/gleichgewichtsdiagramm.png Graphic file (type png)
 
 <use img/gleichgewichtsdiagramm.png>
@@ -2132,8 +2179,8 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 93--94
 
 
 Underfull \hbox (badness 1622) in paragraph at lines 83--98
-[]\T1/lmr/m/n/12 Die be-rech-ne-ten Er-geb-nis-se sind in den Ab-bil-dun-gen 3,
- 4 und 5 in Dia-
+[]\T1/lmr/m/n/12 Die be-rech-ne-ten Er-geb-nis-se sind in den Ab-bil-dun-gen 4,
+ 5 und 6 in Dia-
  []
 
 
@@ -2147,7 +2194,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/Aktiv.png, id=41, 1256.695pt x 826.08624pt>
+<img/Aktiv.png, id=52, 1256.695pt x 826.08624pt>
 File: img/Aktiv.png Graphic file (type png)
  <use img/Aktiv.png>
 Package pdftex.def Info: img/Aktiv.png used on input line 101.
@@ -2160,8 +2207,8 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 101--102
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7 <./img/VLE-T-x-isobar.png>] [8 <./img/gleichgewichtsdiagramm.png (PNG co
-py)> <./img/Aktiv.png (PNG copy)>]) (./011_fehlerbetrachtung.tex
+[8] [9 <./img/VLE-T-x-isobar.png>] [10 <./img/gleichgewichtsdiagramm.png (PNG c
+opy)> <./img/Aktiv.png (PNG copy)>]) (./011_fehlerbetrachtung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2172,14 +2219,20 @@ Underfull \hbox (badness 2856) in paragraph at lines 10--11
 wi-schen den
  []
 
-) (./07_diskussion.tex) (./10_zusammenfassung.tex) [9
+) (./07_diskussion.tex) [11
 
 ]
 \openout2 = `08_literatur.aux'.
 
- (./08_literatur.tex
-No file 00_PC-VLE.bbl.
-)
+ (./08_literatur.tex (./00_PC-VLE.bbl
+Underfull \hbox (badness 1360) in paragraph at lines 11--16
+\T1/lmr/m/n/12 thieme . de / lexicon / RD-[]18-[]00625#$, Ab-ruf: 17.07.2020. -
+-  Li-bra-ry Ca-ta-log:
+ []
+
+)) [12
+
+]
 \openout2 = `09_anhang.aux'.
 
  (./09_anhang.tex
@@ -2259,8 +2312,7 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[10
-
+[13
 
 
 ]
@@ -2303,7 +2355,7 @@ Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[11]) 
+[14]) 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
@@ -2313,11 +2365,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 207.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 44116 strings out of 493029
- 1000381 string characters out of 6136234
- 1194619 words of memory out of 5000000
- 46910 multiletter control sequences out of 15000+600000
- 74305 words of font info for 60 fonts, out of 8000000 for 9000
+ 44164 strings out of 493029
+ 1001018 string characters out of 6136234
+ 1195378 words of memory out of 5000000
+ 46954 multiletter control sequences out of 15000+600000
+ 81362 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,19n,103p,10372b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -2329,14 +2381,14 @@ x10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fo
 nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type
 1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/t
-exmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-tt12.pfb>
-Output written on 00_PC-VLE.pdf (12 pages, 719916 bytes).
+re/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on 00_PC-VLE.pdf (15 pages, 757769 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 135 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

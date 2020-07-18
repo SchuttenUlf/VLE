@@ -2,14 +2,14 @@
 \contentsline {section}{\numberline {1}Einleitung und Versuchsziel}{2}{section.1}
 \contentsline {section}{\numberline {2}Theoretische Grundlagen}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Der Azeotrope Punkt}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Refraktometrie}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Refraktometrie}{2}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Die Gibbs'sche Phasenregel}{3}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Raoult-Dalton'sches-Gesetz}{3}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Thermodynamische Konsistenz}{3}{subsection.2.5}
-\contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{3}{section.3}
-\contentsline {section}{\numberline {4}Ergebnisse}{5}{section.4}
-\contentsline {section}{\numberline {5}Fehlerbetrachtung}{9}{section.5}
-\contentsline {section}{\numberline {6}Diskussion der Ergebnisse}{9}{section.6}
-\contentsline {section}{\numberline {7}Zusammenfassung und Fazit}{9}{section.7}
-\contentsline {section}{Literaturverzeichnis}{10}{section.7}
-\contentsline {section}{Anhang}{10}{section*.15}
+\contentsline {subsection}{\numberline {2.4}Raoult-Dalton'sches-Gesetz}{4}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Antoine-Gleichung}{4}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Thermodynamische Konsistenz}{4}{subsection.2.6}
+\contentsline {section}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{5}{section.3}
+\contentsline {section}{\numberline {4}Ergebnisse}{7}{section.4}
+\contentsline {section}{\numberline {5}Fehlerbetrachtung}{11}{section.5}
+\contentsline {section}{\numberline {6}Diskussion und Fazit}{11}{section.6}
+\contentsline {section}{Literaturverzeichnis}{12}{section*.15}
+\contentsline {section}{Anhang}{13}{section*.16}
