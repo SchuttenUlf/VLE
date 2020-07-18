@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  17 JUL 2020 22:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.3.20)  18 JUL 2020 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2081,6 +2081,18 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 ]
 (./03_aufgabenstellung.tex
+Underfull \hbox (badness 4429) in paragraph at lines 3--4
+\T1/lmr/m/n/12 Die De-stil-la-ti-on und Rek-ti-fi-ka-ti-on von Stoff-ge-mi-sche
+n ist ein es-sen-ti-el-les
+ []
+
+
+Underfull \hbox (badness 1248) in paragraph at lines 3--4
+\T1/lmr/m/n/12 zu kön-nen, muss das Dampf-Flüssig-Gleichgewicht be-kannt sein. 
+Eben die-se
+ []
+
+
 Underfull \hbox (badness 1210) in paragraph at lines 8--9
 \T1/lmr/m/n/12 Ein Azeo-trop ist ein Ge-misch aus min-des-tens zwei Kom-po-nen-
 ten in ei-nem
@@ -2103,19 +2115,19 @@ en Wel-len-län-ge im
  []
 
 [2] [3 <./img/refraktometer.png>]
-Underfull \hbox (badness 4403) in paragraph at lines 43--44
+Underfull \hbox (badness 4403) in paragraph at lines 42--43
 \T1/lmr/m/n/12 Ge-setz zu-sam-men-ge-setzt. Es be-schreibt den Zu-sam-men-hang 
 zwi-schen der
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 48--49
+Underfull \hbox (badness 1484) in paragraph at lines 47--48
 \T1/lmr/m/n/12 der Tem-pe-ra-tur, wird die Antoine-Gleichung [] ge-nutzt. Die-s
 e ba-siert auf
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 48--49
+Underfull \hbox (badness 2980) in paragraph at lines 47--48
 \T1/lmr/m/n/12 der Clapeyron-Gleichung []. Sie ist aber bes-ser zur Be-schrei-b
 ung rea-ler
  []
@@ -2144,18 +2156,26 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 File: img/zirkulationsapparatur.png Graphic file (type png)
 
 <use img/zirkulationsapparatur.png>
-Package pdftex.def Info: img/zirkulationsapparatur.png used on input line 29.
+Package pdftex.def Info: img/zirkulationsapparatur.png used on input line 30.
 (pdftex.def)             Requested size: 298.75264pt x 398.34883pt.
-) (./06_ergebnisse.tex [6 <./img/zirkulationsapparatur.png>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./06_ergebnisse.tex [6]
 PGFPlots: reading {kalibrierpunkte.dat}
 Missing character: There is no ; in font nullfont!
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./img/zirkulationsapparatur.png>]
 Underfull \hbox (badness 1168) in paragraph at lines 54--55
 []\T1/lmr/m/n/12 Die Be-rech-nung der Dampf-drücke der Kom-po-nen-ten bei der e
 nt-spre-chen-den
  []
 
-[7] <img/VLE-T-x-isobar.png, id=50, 1185.42876pt x 830.10126pt>
+[8] <img/VLE-T-x-isobar.png, id=55, 1185.42876pt x 830.10126pt>
 File: img/VLE-T-x-isobar.png Graphic file (type png)
 
 <use img/VLE-T-x-isobar.png>
@@ -2166,7 +2186,7 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 86--87
  [][] 
  []
 
-<img/gleichgewichtsdiagramm.png, id=51, 1219.55624pt x 770.88pt>
+<img/gleichgewichtsdiagramm.png, id=56, 1219.55624pt x 770.88pt>
 File: img/gleichgewichtsdiagramm.png Graphic file (type png)
 
 <use img/gleichgewichtsdiagramm.png>
@@ -2178,9 +2198,9 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 93--94
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 83--98
-[]\T1/lmr/m/n/12 Die be-rech-ne-ten Er-geb-nis-se sind in den Ab-bil-dun-gen 4,
- 5 und 6 in Dia-
+Underfull \hbox (badness 1314) in paragraph at lines 83--98
+\T1/lmr/m/n/12 dar-ge-stellt. Die Gra-fi-ken ent-hal-ten au-ÿer-dem die idea-le
+n theo-re-ti-schen Kur-
  []
 
 
@@ -2194,7 +2214,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/Aktiv.png, id=52, 1256.695pt x 826.08624pt>
+<img/Aktiv.png, id=57, 1256.695pt x 826.08624pt>
 File: img/Aktiv.png Graphic file (type png)
  <use img/Aktiv.png>
 Package pdftex.def Info: img/Aktiv.png used on input line 101.
@@ -2207,8 +2227,8 @@ Overfull \hbox (42.68173pt too wide) in paragraph at lines 101--102
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9 <./img/VLE-T-x-isobar.png>] [10 <./img/gleichgewichtsdiagramm.png (PNG c
-opy)> <./img/Aktiv.png (PNG copy)>]) (./011_fehlerbetrachtung.tex
+[9] [10 <./img/VLE-T-x-isobar.png>] [11 <./img/gleichgewichtsdiagramm.png (PNG 
+copy)> <./img/Aktiv.png (PNG copy)>]) (./011_fehlerbetrachtung.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -2219,7 +2239,7 @@ Underfull \hbox (badness 2856) in paragraph at lines 10--11
 wi-schen den
  []
 
-) (./07_diskussion.tex) [11
+) (./07_diskussion.tex) [12
 
 ]
 \openout2 = `08_literatur.aux'.
@@ -2230,132 +2250,52 @@ Underfull \hbox (badness 1360) in paragraph at lines 11--16
 -  Li-bra-ry Ca-ta-log:
  []
 
-)) [12
+)) [13
 
 ]
 \openout2 = `09_anhang.aux'.
 
- (./09_anhang.tex
+ (./09_anhang.tex <deckblatt.pdf, id=76, 597.23125pt x 845.1575pt>
+File: deckblatt.pdf Graphic file (type pdf)
 
-! Package pdfpages Error: Cannot find file `deckblatt'.
+<use deckblatt.pdf>
+Package pdftex.def Info: deckblatt.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: deckblatt.pdf Graphic file (type pdf)
+ <use deckblatt.pdf>
+Package pdftex.def Info: deckblatt.pdf used on input line 5.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \includepdf{deckblatt}
-                          
-This error message was generated by an \errmessage
-command, so I can't give any explicit help.
-Pretend that you're Hercule Poirot: Examine all clues,
-and deduce the truth by order and method.
+<deckblatt.pdf, id=79, page=1, 597.23125pt x 845.1575pt>
+File: deckblatt.pdf Graphic file (type pdf)
 
-! Undefined control sequence.
-\AM@checkpagenumber #1->\ifnum #1>\AM@pagecount 
-                                                \relax \ifthenelse {\boolean...
-l.5 \includepdf{deckblatt}
-                          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.5 \includepdf{deckblatt}
-                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-
-! Package pdfpages Error: Page 1 of `\AM@currentdocname ' does not exist.
-
-See the pdfpages package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \includepdf{deckblatt}
-                          
-You have set a wrong page number in the `pages' option. Document 
-`\AM@currentdocname ' does not have 1 pages.
-
-
-! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \includepdf{deckblatt}
-                          
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \includepdf{deckblatt}
-                          
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[13
+<use deckblatt.pdf, page 1>
+Package pdftex.def Info: deckblatt.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: deckblatt.pdf Graphic file (type pdf)
+ <use deckblatt.pdf, page 1>
+Package pdftex.def Info: deckblatt.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [14
 
 
 ]
+File: deckblatt.pdf Graphic file (type pdf)
 
-! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
+<use deckblatt.pdf, page 1>
+Package pdftex.def Info: deckblatt.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: deckblatt.pdf Graphic file (type pdf)
+ <use deckblatt.pdf, page 1>
+Package pdftex.def Info: deckblatt.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: deckblatt.pdf Graphic file (type pdf)
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \includepdf{deckblatt}
-                          
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<use deckblatt.pdf, page 1>
+Package pdftex.def Info: deckblatt.pdf, page1 used on input line 5.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [15 <./deckblatt.pdf>])
 
-
-! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \includepdf{deckblatt}
-                          
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package pdftex.def Error: File `\AM@currentdocname .png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \includepdf{deckblatt}
-                          
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14]) 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
@@ -2365,11 +2305,11 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 207.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
  ) 
 Here is how much of TeX's memory you used:
- 44164 strings out of 493029
- 1001018 string characters out of 6136234
- 1195378 words of memory out of 5000000
- 46954 multiletter control sequences out of 15000+600000
- 81362 words of font info for 62 fonts, out of 8000000 for 9000
+ 44133 strings out of 493029
+ 1000584 string characters out of 6136234
+ 1195749 words of memory out of 5000000
+ 46927 multiletter control sequences out of 15000+600000
+ 81044 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,19n,103p,10372b,2409s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
@@ -2384,11 +2324,11 @@ nts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 re/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/l
-msy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on 00_PC-VLE.pdf (15 pages, 757769 bytes).
+msy8.pfb>
+Output written on 00_PC-VLE.pdf (16 pages, 2446266 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

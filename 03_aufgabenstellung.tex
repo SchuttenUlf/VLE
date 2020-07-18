@@ -1,14 +1,14 @@
 \section{Einleitung und Versuchsziel}
 \label{sec:aufgabenstellung}
-Die Destillation und Rektifikation von Stoffgemischen ist ein essentielles Trennverfahren in der chemischen Industrie. Um Berechnungen dazu ausführen zu können muss das Dampf-Flüssig-Gleichgewicht bekannt sein. Eben diese Abhängigkeiten zwischen Temperatur, Druck und den Zusammensetzungen der flüssigen und der Dampfphase soll in im Laborversuch, anhand eines binären Gemisches aus Ethanol und Cyclohexan, untersucht werden. Aus den gewonnenen Daten werden das Siede-/Taudiagramm, das Gleichgewichtsdiagramm, die Partialdrücke und die Aktivitätskoeffizienten abgeleitet. 
+Die Destillation und Rektifikation von Stoffgemischen ist ein essentielles Trennverfahren in der chemischen Industrie. Um Berechnungen dazu ausführen zu können, muss das Dampf-Flüssig-Gleichgewicht bekannt sein. Eben diese Abhängigkeiten zwischen Temperatur, Druck und den Zusammensetzungen der flüssigen und der Dampfphase soll im Laborversuch, anhand eines binären Gemisches aus Ethanol und Cyclohexan, untersucht werden. Aus den gewonnenen Daten werden das Siede-/Taudiagramm, das Gleichgewichtsdiagramm, die Partialdrücke und die Aktivitätskoeffizienten abgeleitet. 
 
 \section{Theoretische Grundlagen}
 
 \subsection{Der Azeotrope Punkt}
-Ein Azeotrop ist ein Gemisch aus mindestens zwei Komponenten in einem Bestimmten Mischungsverhältnis. Die Besonderheit ist, dass sich dieses Gemsich wie ein Reinstoff verhält. Es lässt sich nicht ohne weiteres Destillieren um die Komponenten zu trennen.
+Ein Azeotrop ist ein Gemisch aus mindestens zwei Komponenten in einem bestimmten Mischungsverhältnis. Die Besonderheit ist, dass sich dieses Gemisch wie ein Reinstoff verhält. Es lässt sich nicht ohne weiteres Destillieren um die Komponenten zu trennen.
 \subsection{Refraktometrie}
 \subsubsection*{Das Abbe-Refraktometer}
-Das Abbe-Refraktometer ist ein Messgerät zur Bestimmung des Brechungsindexes einer Flüssigkeit. Es ist nach seinem Erfinder Ernst Abbe benannt. Der schematische Aufbau ist in Abb. \ref{fig:refraktometer} dargestellt. Es sind gut die beiden Prismen P1 und P2 zu sehen, zwischen welchen sich der Probenfilm befindet. Das licht wird gebrochen, sodass ein Horizont entsteht. Auf der einen Seite ist Licht und auf der anderen Seite nicht. Dieser Horizont wird an einem Fadenkreuz ausgerichtet. Das Instrument ist so kalibriert, dass die beim Einstellen des Horizontes auf das Fadenkreuz mitbewegte Skala, den Brechungsindex anzeigt. 
+Das Abbe-Refraktometer ist ein Messgerät zur Bestimmung des Brechungsindexes einer Flüssigkeit. Es ist nach seinem Erfinder Ernst Abbe benannt. Der schematische Aufbau ist in Abb. \ref{fig:refraktometer} dargestellt. Es sind gut die beiden Prismen P1 und P2 zu sehen, zwischen welchen sich der Probenfilm befindet. Das Licht wird gebrochen, sodass ein Horizont entsteht. Auf der einen Seite ist Licht und auf der anderen Seite nicht. Je nach Zusammensetzung der Probe wird das Licht in einem anderen Winkel gebrochen. Dieser Horizont wird an einem Fadenkreuz ausgerichtet. Das Instrument ist so kalibriert, dass die beim Einstellen des Horizontes auf das Fadenkreuz mitbewegte Skala, den Brechungsindex anzeigt. 
 Weil der Brechungsindex auch stark von der Temperatur beeinflusst wird ist das Refraktometer mit einem Thermostaten verbunden.
 
 \begin{figure}[h!]
@@ -23,14 +23,13 @@ Weil der Brechungsindex auch stark von der Temperatur beeinflusst wird ist das R
 Die Messung des Brechungsindexes erfolgt bei einer spezifischen Wellenlänge, da diese Einfluss auf den Reflexionswinkel hat. Üblich ist dabei die Verwendung der  Wellenlänge  \SI{589}{\nano\meter}. Diese entspricht einer spezifischen Wellenlänge im Spektrum des Natriums und kann mit einer Natriumdampflampe erzeugt werden. Bei modernen Refraktometern wird sie durch einen optischen Filter aus dem kontinuierlichen Spektrum einer Glühlampe extrahiert.
 \FloatBarrier
 \subsection{Die Gibbs'sche Phasenregel}
-Anhand der Gibbs'schen Phasenregel lassen sich die Frieheitsgrade eines Systems berechnen. Die Formel ist in Gleichung LOLOLO daregstellt. F steht für die Anzahl der Freiheitsgrade, N für die Anzahl der Komponenten und P für die Anzahl an Phasen.
-
+Anhand der Gibbs'schen Phasenregel lassen sich die Freiheitsgrade eines Systems berechnen. Die Formel ist in Gleichung \eqref{gl:gibbs} dargestellt. F steht für die Anzahl der Freiheitsgrade, N für die Anzahl der Komponenten und P für die Anzahl an Phasen.
+\vspace{-2mm}
 \begin{equation}\label{gl:gibbs}
 F=N-P+2
 \end{equation}
 \subsubsection*{Anzahl der Freiheitsgrade}
-
-Für das betrachtete System kann nun in die Gibbs'sche Phasenregel eingesetzt werden. Es gibt die Stoffe Ethanol und Cyclohexan. Wir bertachten außerdem ein zweiphasensystem mit der flüssigen und gasförmigen Phase. Daraus ergeben sich zwei Freiheitsgrade (vgl. \eqref{gl:bspGibbs}). In der Fachsprache kommt dafür die Bezeichnung "`bivariant"' zum Einsatz.
+Für das betrachtete System kann nun in die Gibbs'sche Phasenregel eingesetzt werden. Es gibt die Stoffe Ethanol und Cyclohexan. Wir betrachten außerdem ein Zweiphasensystem, mit der flüssigen und gasförmigen Phase. Daraus ergeben sich zwei Freiheitsgrade (vgl. \eqref{gl:bspGibbs}). In der Fachsprache kommt dafür die Bezeichnung "`bivariant"' zum Einsatz.
 
 \begin{flalign}\label{gl:bspGibbs}
 	F&=2-2+2\\
@@ -40,7 +39,7 @@ Für das betrachtete System kann nun in die Gibbs'sche Phasenregel eingesetzt we
 
 In Anbetracht der Tatsache dass das System offen gegen die Atmosphäre ist, kann es als isobar angenommen werden. Über die Zusammensetzung der flüssigen Phase kann frei verfügt werden. Die Temperatur stellt sich dementsprechend nach einiger Zeit von selbst ein. 
 \subsection{Raoult-Dalton'sches-Gesetz}
-Das Raoult-Dalton'sche-Gesetz ist aus dem Roult'schen und dem Dalton'schen Gesetz zusammengesetzt. Es beschreibt den Zusammenhang zwischen der Temperatur, dem Druck, den Partialdrücken und der Zusammensetzung von Flüssigkeit und Dampf eines Systems. Zur Beschreibung realer Mischungen bei niedrigen Drücken muss der Aktivitätskoeffizient mit einbezogen werden. Der fertige Zusammenhang ist in Gleichung \eqref{gl:raudalt} vermerkt.
+Das Raoult-Dalton'sche-Gesetz ist aus dem Raoult'schen und dem Dalton'schen Gesetz zusammengesetzt. Es beschreibt den Zusammenhang zwischen der Temperatur, dem Druck, den Partialdrücken und der Zusammensetzung von Flüssigkeit und Dampf eines Systems. Zur Beschreibung realer Mischungen bei niedrigen Drücken muss der Aktivitätskoeffizient mit einbezogen werden. Der fertige Zusammenhang ist in Gleichung \eqref{gl:raudalt} vermerkt.
 \begin{equation}\label{gl:raudalt}
 	p_i=x_i^V*p=x_i^L*p_i^0(T)*\gamma_i
 \end{equation}
